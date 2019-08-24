@@ -53,6 +53,24 @@ function render () {
   console.log('regSeasonData ->',regSeasonData);
   console.log('playoffData ->',playoffsData);
   
+  /*
+  Combine the key elements from each data set into an object within an array  that looks like
+  [
+    { "TEAM_ABR": "GSW", 
+      "REG_WIN_PCT": "72.3", 
+      "PLYOFF_WIN_PCT": "65.4",
+    },
+    ...
+  ]
+  
+  Note: only include playoff teams
+  
+  mutate the array to order by regular season winning percentage in DESC order (i.e. highest win percentage to lowest)
+  
+  inject html into DOM for each team with found in this new object
+  
+  */
+  
 }
 
 function parseData (data) {

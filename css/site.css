@@ -42,10 +42,15 @@ body {
     padding: 10px;
 }
 
+.Viz-header label {
+    position: relative;
+    z-index: 2;
+}
+
 .Viz-wrapper {
     display: flex;
     justify-content: center;
-    height: 450px;
+    height: 550px;
 }
 
 .Viz-item {
@@ -65,7 +70,7 @@ body {
 }
 
 .Viz-item:hover {
-    transform: scale(1.4);
+    transform: scale(1.3);
     z-index: 1;
 }
 

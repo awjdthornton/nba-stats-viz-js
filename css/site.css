@@ -75,6 +75,7 @@ body {
 }
 
 .Viz-data {
+    position: relative;
     align-self: end;
     width: 2vw;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
@@ -94,10 +95,6 @@ body {
 .Viz-label {
     grid-column: 1 / span 2;
     margin-top: 10px;
-}
-
-.Viz-data {
-    position: relative;
 }
 
 .Viz-data label {

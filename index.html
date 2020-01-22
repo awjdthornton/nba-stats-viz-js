@@ -8,6 +8,12 @@
 
       <link rel="stylesheet" href="css/site.css">
       <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+      <script>
+        !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src="https://cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(n,a);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";
+        analytics.load("rOkKOxG46BM8h0ri0l8AP0Oa7WS2TgSG");
+        analytics.page();
+        }}();
+      </script>
 
     </head>
     <body>
@@ -17,7 +23,7 @@
                 <div class="DimensionChooser">
                   <label>Conference:
                     <select class="DimensionChooser-select" id="dim1" onClick="onDimChange()">
-                      <option>All</option>
+                      </option><option>All</option>
                       <option>Eastern</option>
                       <option>Western</option>
                     </select>
